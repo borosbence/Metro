@@ -11,5 +11,8 @@ namespace Metro.ViewInterface
     {
         List<Allomas> Allomasok { get; set; }
         List<Vonal> MetroVonalak { get; set; }
+        //string Indulas { get; set; }
+        //string Erkezes { get; set; }
+        //List<string> Utvonal { get; set; }
     }
 }

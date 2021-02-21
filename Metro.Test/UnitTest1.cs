@@ -32,7 +32,7 @@ namespace Metro.Test
         {
             var repo = new MetroRepository("metro.xlsx");
             var parkMegallo = repo.Allomasok.FindAll(x => x.AllomasNev.Contains("tér")).Count;
-            Assert.IsTrue(parkMegallo > 5);
+            Assert.IsFalse(parkMegallo < 5);
         }
     }
 }

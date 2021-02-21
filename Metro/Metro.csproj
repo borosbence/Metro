@@ -103,7 +103,6 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Data\Budapest_metro.png" />
-    <Content Include="Data\Budapest_metro_800x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -62,5 +62,10 @@ namespace Metro.Repository
                 }
             }
         }
+
+        public bool VonalonLetezik(Vonal vonal, string allomas)
+        {
+            return vonal.Allomasok.Select(x => x.AllomasNev).Contains(allomas);
+        }
     }
 }

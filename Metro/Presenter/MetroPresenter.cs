@@ -1,4 +1,5 @@
-﻿using Metro.Repository;
+﻿using Metro.Model;
+using Metro.Repository;
 using Metro.ViewInterface;
 using System;
 using System.Collections.Generic;
@@ -24,5 +25,9 @@ namespace Metro.Presenter
             view.MetroVonalak = repo.MetroVonalak;
         }
 
+        public bool VonalonLetezik(Vonal vonal, string allomas)
+        {
+            return repo.VonalonLetezik(vonal, allomas);
+        }
     }
 }
